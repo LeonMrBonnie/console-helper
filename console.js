@@ -97,7 +97,7 @@ export class Console {
         console.info(this.color(`[${this.name}]`), ...text);
     }
 
-    dirxml(objects) {
+    dirxml(...objects) {
         console.dirxml(...objects);
     }
 
